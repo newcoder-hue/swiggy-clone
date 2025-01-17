@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.black-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.what-is-on-your-mind-items::-webkit-scrollbar {
+  display: none;
+}
+
+.restaurants::-webkit-scrollbar {
+  display: none;
+}
+
+.black-overlay {
+  position: absolute;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+
+  width: 100%;
+  height: 100%;
+  padding: 0 0.5rem;
+  /* bottom: 0%; */
+}
